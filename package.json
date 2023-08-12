@@ -1,0 +1,44 @@
+{
+  "name": "gatsby-source-mta",
+  "version": "1.0.0",
+
+  "author": {
+    "name": "Kit",
+    "email": "kit@kitweb.dev",
+    "url": "https://kitweb.dev/"
+  },
+  "description": "Gatsby source plugin for fetching all MTA (NYC Subway) stations.",
+  
+  "types": "./index.d.ts",
+  "main": "./dist/gatsby-node.js",
+  "files": [
+    "./dist/*",
+    "gatsby-node.js"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "develop": "tsc --watch"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+
+    "NYC",
+    "MTA",
+    "Subway",
+    "Stations"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "gatsby": "next",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "gatsby": "^5.0.0"
+  }
+}
