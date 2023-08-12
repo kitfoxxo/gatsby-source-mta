@@ -53,7 +53,7 @@ graphql`
 Returns all stations that have `A` line service:
 ```js
 graphql`
-    query GetAllMtaStations {
+    query GetMtaStationsThatHaveALineService {
         allMtaStations(filter: {lines: {eq: "A"}}) {
             nodes {
                 id
